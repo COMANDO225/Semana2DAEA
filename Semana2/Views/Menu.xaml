@@ -1,0 +1,22 @@
+﻿<Window x:Class="Semana2.Views.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana2.Views"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label Content="Menu Principal Masna" FontWeight="Black" FontSize="22" HorizontalAlignment="Center"/>
+            <StackPanel Margin="10">
+                <Button Content="Operaciones" Background="#3b82f6" Foreground="White" FontWeight="DemiBold" BorderBrush="Transparent" Name="operacionesBtn" Height="36" Margin="0,5" Click="operacionesBtn_Click"/>
+                <Button Content="Mentenimientos" Background="#3b82f6" Foreground="White" FontWeight="DemiBold" BorderBrush="Transparent" Name="mantenimientoBtn" Height="36" Margin="0,5" Click="mantenimientoBtn_Click"/>
+                <Button Content="Reportes" Background="#3b82f6" Foreground="White" FontWeight="DemiBold" BorderBrush="Transparent" Name="reportesBtn" Height="36" Margin="0,5" Click="reportesBtn_Click"/>
+                <StackPanel >
+                    <Button Content="Cerrar Sesión" Name="cerrarSessionBtn" Height="36" BorderBrush="Transparent" Foreground="#3b82f6" Background="#dbeafe" Click="cerrarSessionBtn_Click" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
